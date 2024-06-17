@@ -8,5 +8,5 @@ spec:
   ports:
   - protocol: TCP
     port: 4499  # Adjust port if your application listens on a different port
-    targetPort: 4499  # Adjust targetPort if Wisecow listens on a different port in the container
+    targetPort: 32443  # Adjust targetPort if Wisecow listens on a different port in the container
   type: LoadBalancer  # Adjust type if you need a different service type (e.g., NodePort)

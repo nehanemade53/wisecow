@@ -23,4 +23,4 @@ spec:
       volumes:
       - name: tls-volume
         secret:
-          secretName: my-tls-secret
+          secretName: my-new-tls-secret
