@@ -17,3 +17,10 @@ spec:
         image: nehanemade/wisecow_app:0.0.1
         ports:
         - containerPort: 4499
+        volumeMounts:
+        - name: tls-volume
+          mountPath: /etc/tls/certs
+      volumes:
+      - name: tls-volume
+        secret:
+          secretName: my-tls-secret
