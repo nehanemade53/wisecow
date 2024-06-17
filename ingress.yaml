@@ -10,7 +10,7 @@ spec:
   tls:
   - hosts:
     - wisecow
-    secretName: my-tls-secret
+    secretName: my-new-tls-secret
   rules:
   - host: wisecow
     http:
